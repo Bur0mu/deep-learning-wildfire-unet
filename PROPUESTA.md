@@ -3,7 +3,7 @@
 ## 1. Identificación
 * **Título:** Predicción de Zonas con Riesgo de Incendio Forestal en la Región del Maule Mediante U-Net y Datos Espectrales Sentinel-2
 * **Nombre:** Marcelo Pablo Faúndez Báez
-* **Repositorio:** [Pega aquí la URL de tu repositorio de GitHub]
+* **Repositorio:** [https://github.com/Bur0mu/deep-learning-wildfire-unet] (https://github.com/Bur0mu/deep-learning-wildfire-unet)
 
 ## 2. Problema y para quién
 Mejora la toma de decisiones preventivas de personal de CONAF, Senapred y brigadas de emergencia al priorizar patrullajes y cortafuegos en la Región del Maule. Actualmente, el riesgo se evalúa mediante promedios meteorológicos globales por comuna sin resolución espacial continua, lo que dificulta detectar zonas de vegetación seca/estresada en microsectores específicos.
