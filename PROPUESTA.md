@@ -36,3 +36,6 @@ Interfaz interactiva desarrollada en **Streamlit** que permite seleccionar un ti
 ## 9. Riesgo principal y plan B
 * **Riesgo principal:** Desbalance extremo de clases entre píxeles de vegetación/suelo normal y píxeles etiquetados con alto riesgo o historial de incendio.
 * **Plan B:** Emplear una función de pérdida combinada Focal Loss + Dice Loss y ajustar el umbral de decisión (*thresholding*) en la salida sigmoide del modelo.
+
+## Ajustes
+Tras la retroalimentación de la propuesta, se acotó el dominio espacial exclusivamente a la Región del Maule mediante un pipeline de extracción automatizado con Google Earth Engine. Se definió el uso directo de parches GeoTIFF de 256x256 píxeles a 20 metros de resolución espacial, proyectados en UTM 19S con canales NDVI y NDMI. El dataset final se ajusta estrictamente al techo de almacenamiento (< 450 MB) y al tiempo máximo de entrenamiento de 2 horas en Google Colab (GPU Tesla T4).
